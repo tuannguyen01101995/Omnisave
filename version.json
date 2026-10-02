@@ -1,0 +1,13 @@
+{
+  "version": "1.3.5",
+  "releaseDate": "2026-10-02",
+  "minSupportedVersion": "1.0.0",
+  "downloadUrl": "https://github.com/tuannguyen01101995/Omnisave/archive/refs/heads/main.zip",
+  "changelog": [
+    "🐛 Khắc Phục Lỗi Tìm Kiếm Game PCGamingWiki (Nested Templates): Nâng cấp bộ phân tích MediaWiki đếm độ sâu ngoặc nhọn, xử lý triệt để lỗi chuỗi bị cắt cụt '{{p' khi gặp thẻ lồng nhau (điển hình như tựa game Clair Obscur: Expedition 33).",
+    "🛠️ Tự Động Phục Hồi Đường Dẫn Lỗi (Auto-Repair): Bổ sung cơ chế tự sửa chữa các mẫu đường dẫn bị lỗi đuôi dở dang '{{p' trong bộ nhớ đệm về thư mục cha hợp lệ.",
+    "🔍 Mở Rộng Nhận Diện Thư Mục User ID / Account ID: Hỗ trợ toàn diện nhận diện thư mục save Unreal Engine theo SteamID64, wildcard '*' và tự động nhận diện thư mục cha SaveGames.",
+    "🧹 Tối Ưu Hóa Trùng Lặp Thư Mục Save: Tự động gộp và loại bỏ các thư mục con trùng lặp khi thư mục cha đã tồn tại và chứa đủ file save, chống nhân đôi dung lượng sao lưu.",
+    "🧼 Làm Sạch Bộ Nhớ Đệm SQLite: Quét dọn tự động các mẫu pattern lỗi dở dang trong bảng games_cache."
+  ]
+}
