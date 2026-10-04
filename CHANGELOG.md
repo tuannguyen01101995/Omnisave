@@ -2,6 +2,13 @@
 
 Tat ca cac thay doi va ban cap nhat dang chu y cua du an **Omnisave** duoc ghi lai tai tai lieu nay.
 
+## [v1.3.6] - 2026-10-04
+- 🎮 Tích Hợp & Tra Cứu Steam AppID Tự Động: Nâng cấp bộ phân tích regex bóc tách Steam ID từ wikitext của PCGamingWiki, kết hợp cơ chế fallback thông minh qua Ludusavi và Steam Store Search.
+- 🌐 Mở Trực Tiếp Steam Store Từ Giao Diện: Thiết kế badge Steam ID góc phải phía trên dung lượng save với bo tròn chuyên biệt, cho phép nhấp vào để mở ngay trang Steam Store của game trên trình duyệt.
+- 💾 Kế Thừa Toàn Diện Dữ Liệu Sao Lưu: Lưu trữ đồng bộ Version, ExecutablePath, ExeSource và SteamAppId vào cả bảng Master (backup_history) lẫn Detail (backup_history_details); tự động nạp lại đầy đủ khi sao lưu từ lịch sử.
+- 🖼️ Bật Tìm Ảnh Bìa Dự Phòng Từ Steam (Fallback): Tự động lấy ảnh bìa chất lượng cao từ Steam CDN khi PCGamingWiki không có ảnh bìa hoặc tải ảnh thất bại, ưu tiên tuyệt đối ảnh gốc PCGamingWiki.
+- ⚡ Đọc Phiên Bản .EXE Mới Nhất Trên Đĩa: Khi nạp dữ liệu game từ lịch sử hay snapshot, hệ thống luôn đọc trực tiếp file thực thi trên máy tính để cập nhật phiên bản thực tế mới nhất.
+
 ## [v1.3.5] - 2026-10-02
 - 🐛 Khắc Phục Lỗi Tìm Kiếm Game PCGamingWiki (Nested Templates): Nâng cấp bộ phân tích MediaWiki đếm độ sâu ngoặc nhọn, xử lý triệt để lỗi chuỗi bị cắt cụt '{{p' khi gặp thẻ lồng nhau (điển hình như tựa game Clair Obscur: Expedition 33).
 - 🛠️ Tự Động Phục Hồi Đường Dẫn Lỗi (Auto-Repair): Bổ sung cơ chế tự sửa chữa các mẫu đường dẫn bị lỗi đuôi dở dang '{{p' trong bộ nhớ đệm về thư mục cha hợp lệ.
