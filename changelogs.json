@@ -1,5 +1,15 @@
 ﻿[
     {
+        "version":  "1.4.2",
+        "releaseDate":  "2026-10-05",
+        "changelog":  [
+                          "🚀 Khắc Phục Lỗi Timeout Gemini AI (The operation was canceled): Nâng thời gian chờ từ 5 giây lên 15 giây khi kiểm tra kết nối và 25 giây khi tra cứu, thích ứng hoàn hảo với độ trễ mạng quốc tế.",
+                          "⚡ Đặt Model Mặc Định gemini-3.5-flash-lite: Tối ưu tốc độ phản hồi chỉ còn ~680ms, vận hành siêu tốc, tiết kiệm quota và độ ổn định cao nhất.",
+                          "🔄 Cơ Chế Tự Động Fallback Thông Minh (503 Service Unavailable): Tự động phát hiện và chuyển tiếp sang model flash-lite khi máy chủ Google quá tải ở các model khác, giúp xác thực API Key và tìm kiếm không bị gián đoạn.",
+                          "💬 Bản Hóa Thông Báo Lỗi Kết Nối: Hiển thị thông báo tiếng Việt trực quan, kèm gợi ý xử lý cụ thể khi gặp sự cố mạng hoặc máy chủ AI quá tải."
+                      ]
+    },
+    {
         "version":  "1.4.1",
         "releaseDate":  "2026-10-05",
         "changelog":  [

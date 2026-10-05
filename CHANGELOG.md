@@ -2,6 +2,12 @@
 
 Tat ca cac thay doi va ban cap nhat dang chu y cua du an **Omnisave** duoc ghi lai tai tai lieu nay.
 
+## [v1.4.2] - 2026-10-05
+- 🚀 Khắc Phục Lỗi Timeout Gemini AI (The operation was canceled): Nâng thời gian chờ từ 5 giây lên 15 giây khi kiểm tra kết nối và 25 giây khi tra cứu, thích ứng hoàn hảo với độ trễ mạng quốc tế.
+- ⚡ Đặt Model Mặc Định gemini-3.5-flash-lite: Tối ưu tốc độ phản hồi chỉ còn ~680ms, vận hành siêu tốc, tiết kiệm quota và độ ổn định cao nhất.
+- 🔄 Cơ Chế Tự Động Fallback Thông Minh (503 Service Unavailable): Tự động phát hiện và chuyển tiếp sang model flash-lite khi máy chủ Google quá tải ở các model khác, giúp xác thực API Key và tìm kiếm không bị gián đoạn.
+- 💬 Bản Hóa Thông Báo Lỗi Kết Nối: Hiển thị thông báo tiếng Việt trực quan, kèm gợi ý xử lý cụ thể khi gặp sự cố mạng hoặc máy chủ AI quá tải.
+
 ## [v1.4.1] - 2026-10-05
 - 🔒 Khóa Bảo Vệ Luồng Mới Gemini AI: Bắt buộc phải có API Key và nhấn 'Kiểm Tra Kết Nối API' thành công mới cho phép kích hoạt công tắc Luồng Mới; hiển thị chỉ báo trạng thái và cảnh báo trực quan.
 - ⚡ Mặc Định Chuẩn Luồng Cũ Truyền Thống: Đưa chế độ tìm kiếm mặc định về Luồng Cũ thuần túy (PCGamingWiki + Steam Store API + Ludusavi + Offline Catalog).

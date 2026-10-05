@@ -1,13 +1,12 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "releaseDate": "2026-10-05",
   "minSupportedVersion": "1.0.0",
   "downloadUrl": "https://github.com/tuannguyen01101995/Omnisave/archive/refs/heads/main.zip",
   "changelog": [
-    "🔒 Khóa Bảo Vệ Luồng Mới Gemini AI: Bắt buộc phải có API Key và nhấn 'Kiểm Tra Kết Nối API' thành công mới cho phép kích hoạt công tắc Luồng Mới; hiển thị chỉ báo trạng thái và cảnh báo trực quan.",
-    "⚡ Mặc Định Chuẩn Luồng Cũ Truyền Thống: Đưa chế độ tìm kiếm mặc định về Luồng Cũ thuần túy (PCGamingWiki + Steam Store API + Ludusavi + Offline Catalog).",
-    "🛡️ Ẩn Toàn Bộ Code Gemini Khỏi Luồng Cũ: Vô hiệu hóa triệt để cờ Force Gemini và ẩn fallback gọi API trong OnlineExeResolverService, đảm bảo Luồng Cũ tuyệt đối không gọi ngầm REST request tới Gemini AI.",
-    "🔄 Tự Động Thu Hồi Quyền Khi Đổi Key: Tự động reset trạng thái xác thực và đưa chế độ về Luồng Cũ ngay khi người dùng thay đổi hoặc xóa API Key nhằm tránh lỗi kết nối.",
-    "✨ Tinh Chỉnh Giao Diện Cài Đặt AI: Chuẩn hóa nhãn hiển thị, tối ưu danh sách Model Gemini và bổ sung thông báo trạng thái kết nối tức thì."
+    "🚀 Khắc Phục Lỗi Timeout Gemini AI (The operation was canceled): Nâng thời gian chờ từ 5 giây lên 15 giây khi kiểm tra kết nối và 25 giây khi tra cứu, thích ứng hoàn hảo với độ trễ mạng quốc tế.",
+    "⚡ Đặt Model Mặc Định gemini-3.5-flash-lite: Tối ưu tốc độ phản hồi chỉ còn ~680ms, vận hành siêu tốc, tiết kiệm quota và độ ổn định cao nhất.",
+    "🔄 Cơ Chế Tự Động Fallback Thông Minh (503 Service Unavailable): Tự động phát hiện và chuyển tiếp sang model flash-lite khi máy chủ Google quá tải ở các model khác, giúp xác thực API Key và tìm kiếm không bị gián đoạn.",
+    "💬 Bản Hóa Thông Báo Lỗi Kết Nối: Hiển thị thông báo tiếng Việt trực quan, kèm gợi ý xử lý cụ thể khi gặp sự cố mạng hoặc máy chủ AI quá tải."
   ]
 }
