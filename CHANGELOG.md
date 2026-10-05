@@ -2,6 +2,13 @@
 
 Tat ca cac thay doi va ban cap nhat dang chu y cua du an **Omnisave** duoc ghi lai tai tai lieu nay.
 
+## [v1.4.1] - 2026-10-05
+- 🔒 Khóa Bảo Vệ Luồng Mới Gemini AI: Bắt buộc phải có API Key và nhấn 'Kiểm Tra Kết Nối API' thành công mới cho phép kích hoạt công tắc Luồng Mới; hiển thị chỉ báo trạng thái và cảnh báo trực quan.
+- ⚡ Mặc Định Chuẩn Luồng Cũ Truyền Thống: Đưa chế độ tìm kiếm mặc định về Luồng Cũ thuần túy (PCGamingWiki + Steam Store API + Ludusavi + Offline Catalog).
+- 🛡️ Ẩn Toàn Bộ Code Gemini Khỏi Luồng Cũ: Vô hiệu hóa triệt để cờ Force Gemini và ẩn fallback gọi API trong OnlineExeResolverService, đảm bảo Luồng Cũ tuyệt đối không gọi ngầm REST request tới Gemini AI.
+- 🔄 Tự Động Thu Hồi Quyền Khi Đổi Key: Tự động reset trạng thái xác thực và đưa chế độ về Luồng Cũ ngay khi người dùng thay đổi hoặc xóa API Key nhằm tránh lỗi kết nối.
+- ✨ Tinh Chỉnh Giao Diện Cài Đặt AI: Chuẩn hóa nhãn hiển thị, tối ưu danh sách Model Gemini và bổ sung thông báo trạng thái kết nối tức thì.
+
 ## [v1.4.0] - 2026-10-05
 - 📁 Tái Cấu Trúc Giao Diện Cài Đặt (Vertical Sidebar): Chuyển đổi thanh điều hướng cài đặt dạng ngang sang Menu Dọc (aside) hiện đại bên trái, tối ưu không gian hiển thị và trải nghiệm cấu hình trên màn hình rộng.
 - ✨ Trợ Lý Gemini AI Thành Tab Chuyên Biệt: Tách rời cấu hình Google Gemini AI thành tab riêng biệt với hiệu ứng tím neon sang trọng, hỗ trợ mã hóa API Key AES-256, chuyển đổi luồng Unified 1-Shot, lựa chọn model và theo dõi hạn mức Free Tier.

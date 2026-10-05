@@ -1,5 +1,16 @@
 ﻿[
     {
+        "version":  "1.4.1",
+        "releaseDate":  "2026-10-05",
+        "changelog":  [
+                          "🔒 Khóa Bảo Vệ Luồng Mới Gemini AI: Bắt buộc phải có API Key và nhấn \u0027Kiểm Tra Kết Nối API\u0027 thành công mới cho phép kích hoạt công tắc Luồng Mới; hiển thị chỉ báo trạng thái và cảnh báo trực quan.",
+                          "⚡ Mặc Định Chuẩn Luồng Cũ Truyền Thống: Đưa chế độ tìm kiếm mặc định về Luồng Cũ thuần túy (PCGamingWiki + Steam Store API + Ludusavi + Offline Catalog).",
+                          "🛡️ Ẩn Toàn Bộ Code Gemini Khỏi Luồng Cũ: Vô hiệu hóa triệt để cờ Force Gemini và ẩn fallback gọi API trong OnlineExeResolverService, đảm bảo Luồng Cũ tuyệt đối không gọi ngầm REST request tới Gemini AI.",
+                          "🔄 Tự Động Thu Hồi Quyền Khi Đổi Key: Tự động reset trạng thái xác thực và đưa chế độ về Luồng Cũ ngay khi người dùng thay đổi hoặc xóa API Key nhằm tránh lỗi kết nối.",
+                          "✨ Tinh Chỉnh Giao Diện Cài Đặt AI: Chuẩn hóa nhãn hiển thị, tối ưu danh sách Model Gemini và bổ sung thông báo trạng thái kết nối tức thì."
+                      ]
+    },
+    {
         "version":  "1.4.0",
         "releaseDate":  "2026-10-05",
         "changelog":  [
