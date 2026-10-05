@@ -2,6 +2,13 @@
 
 Tat ca cac thay doi va ban cap nhat dang chu y cua du an **Omnisave** duoc ghi lai tai tai lieu nay.
 
+## [v1.4.3] - 2026-10-05
+- 🎮 Tự Động Nhận Diện Steam User ID (Account ID): Tự động trích xuất User ID từ Windows Registry (ActiveProcess & Users) và thư mục userdata, giải quyết triệt để lỗi tìm kiếm save game Steam bị dừng ở 'steam\userdata' (như tựa game LEGO The Lord of the Rings).
+- 🛡️ Bộ Lọc Thư Mục Hệ Thống & Bảo Vệ Cấu Trúc Save: Thêm cơ chế IsSystemOrContainerDirectory ngăn không cho các thư mục gốc (userdata, AppData...) bị nhận nhầm thành thư mục save và loại bỏ nhầm thư mục con thực tế.
+- 🌐 Hỗ Trợ Đầy Đủ Thẻ Ludusavi <root> & <storeUserId>: Bổ sung phân tích và chuyển đổi chuẩn xác đường dẫn Steam Cloud trong kho dữ liệu offline Ludusavi Manifest.
+- 🔄 Cơ Chế Fallback Tìm Kiếm Offline Tự Động: Tự động tra cứu trong cơ sở dữ liệu offline khi PCGamingWiki không có phản hồi hoặc bị Cloudflare chặn, đảm bảo kết quả tìm kiếm luôn liền mạch.
+- ☁️ Khắc Phục & Bắt Lỗi Xung Đột Cổng OneDrive (Error 32): Bổ sung cơ chế bắt lỗi chi tiết kèm hướng dẫn tiếng Việt khi cổng OAuth 53682 bị Windows NAT/Hyper-V/WSL2 chiếm giữ (Sharing Violation).
+
 ## [v1.4.2] - 2026-10-05
 - 🚀 Khắc Phục Lỗi Timeout Gemini AI (The operation was canceled): Nâng thời gian chờ từ 5 giây lên 15 giây khi kiểm tra kết nối và 25 giây khi tra cứu, thích ứng hoàn hảo với độ trễ mạng quốc tế.
 - ⚡ Đặt Model Mặc Định gemini-3.5-flash-lite: Tối ưu tốc độ phản hồi chỉ còn ~680ms, vận hành siêu tốc, tiết kiệm quota và độ ổn định cao nhất.
