@@ -1,5 +1,16 @@
 ﻿[
     {
+        "version":  "1.4.0",
+        "releaseDate":  "2026-10-05",
+        "changelog":  [
+                          "📁 Tái Cấu Trúc Giao Diện Cài Đặt (Vertical Sidebar): Chuyển đổi thanh điều hướng cài đặt dạng ngang sang Menu Dọc (aside) hiện đại bên trái, tối ưu không gian hiển thị và trải nghiệm cấu hình trên màn hình rộng.",
+                          "✨ Trợ Lý Gemini AI Thành Tab Chuyên Biệt: Tách rời cấu hình Google Gemini AI thành tab riêng biệt với hiệu ứng tím neon sang trọng, hỗ trợ mã hóa API Key AES-256, chuyển đổi luồng Unified 1-Shot, lựa chọn model và theo dõi hạn mức Free Tier.",
+                          "🛑 Nút Hủy Tìm Kiếm Linh Hoạt (Cancel Search): Bổ sung nút hủy tìm kiếm màu đỏ hồng phát sáng khi đang tra cứu game hoặc đang kết nối AI, cho phép dừng tác vụ ngay lập tức.",
+                          "🧹 Tự Động Làm Sạch Card Game Cũ: Xóa sạch thông tin card game trước đó ngay khi bắt đầu tìm kiếm mới hoặc chọn game từ dropdown, ngăn chặn hiển thị sai lệch thông tin trước khi nạp xong.",
+                          "🎨 Tối Ưu Hóa Giao Diện \u0026 Popup Tra Cứu: Sửa lỗi hiển thị đẩy lệch bố cục của box định dạng tra cứu online (sv-box-inner), đảm bảo trải nghiệm mượt mà không khựng giật."
+                      ]
+    },
+    {
         "version":  "1.3.6",
         "releaseDate":  "2026-10-04",
         "changelog":  [
