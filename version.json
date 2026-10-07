@@ -1,13 +1,13 @@
 {
-  "version": "1.4.3",
-  "releaseDate": "2026-10-05",
+  "version": "1.5.0",
+  "releaseDate": "2026-10-07",
   "minSupportedVersion": "1.0.0",
   "downloadUrl": "https://github.com/tuannguyen01101995/Omnisave/archive/refs/heads/main.zip",
   "changelog": [
-    "🎮 Tự Động Nhận Diện Steam User ID (Account ID): Tự động trích xuất User ID từ Windows Registry (ActiveProcess & Users) và thư mục userdata, giải quyết triệt để lỗi tìm kiếm save game Steam bị dừng ở 'steam\\userdata' (như tựa game LEGO The Lord of the Rings).",
-    "🛡️ Bộ Lọc Thư Mục Hệ Thống & Bảo Vệ Cấu Trúc Save: Thêm cơ chế IsSystemOrContainerDirectory ngăn không cho các thư mục gốc (userdata, AppData...) bị nhận nhầm thành thư mục save và loại bỏ nhầm thư mục con thực tế.",
-    "🌐 Hỗ Trợ Đầy Đủ Thẻ Ludusavi <root> & <storeUserId>: Bổ sung phân tích và chuyển đổi chuẩn xác đường dẫn Steam Cloud trong kho dữ liệu offline Ludusavi Manifest.",
-    "🔄 Cơ Chế Fallback Tìm Kiếm Offline Tự Động: Tự động tra cứu trong cơ sở dữ liệu offline khi PCGamingWiki không có phản hồi hoặc bị Cloudflare chặn, đảm bảo kết quả tìm kiếm luôn liền mạch.",
-    "☁️ Khắc Phục & Bắt Lỗi Xung Đột Cổng OneDrive (Error 32): Bổ sung cơ chế bắt lỗi chi tiết kèm hướng dẫn tiếng Việt khi cổng OAuth 53682 bị Windows NAT/Hyper-V/WSL2 chiếm giữ (Sharing Violation)."
+    "🔄 Đồng Bộ Chéo Đa Nền Tảng (Cross-Cloud Resync): Hỗ trợ đồng bộ bản sao lưu trực tiếp giữa Google Drive và OneDrive khi máy tính không còn giữ file cục bộ; tự động tải đệm vào thư mục tạm và tự dọn dẹp giải phóng đĩa.",
+    "💻 Khôi Phục Snapshot Về Ổ Đĩa Máy Tính (Cloud to Local): Bổ sung tính năng cho phép tải và tái tạo file backup từ Cloud về đúng thư mục lưu trữ máy tính cục bộ nếu file snapshot bị thất lạc hoặc vô tình bị xóa.",
+    "🎨 Tái Cấu Trúc Giao Diện Modal Đồng Bộ Nằm Ngang: Thiết kế lại toàn diện SyncCloudSelectModal sang bố cục 3 Card nằm ngang (Bộ Nhớ Máy Tính, Google Drive, Microsoft OneDrive) với badge nhận diện và nút bấm ngữ cảnh thông minh.",
+    "⚡ Nâng Cấp Modal Chọn Nguồn Khôi Phục Nằm Ngang: Chuyển đổi RestoreSourceModal từ dạng dọc sang lưới 3 cột ngang hiện đại, phân tách rõ ràng nguồn Ổ cứng cục bộ (tốc độ tức thì) và các nguồn đám mây.",
+    "🛡️ Mở Rộng Bộ Kiểm Thử Tự Động (Integration Tests): Bổ sung kịch bản kiểm thử 15.2c (Cross-Cloud Resync) và 15.2d (Cloud-to-Local Restore), nâng tổng số bài test tích hợp lên 43/43 PASSED 100%."
   ]
 }
