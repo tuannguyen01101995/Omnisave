@@ -1,13 +1,11 @@
 {
-  "version": "1.5.0",
-  "releaseDate": "2026-10-07",
+  "version": "1.5.1",
+  "releaseDate": "2026-10-09",
   "minSupportedVersion": "1.0.0",
-  "downloadUrl": "https://github.com/tuannguyen01101995/Omnisave/archive/refs/heads/main.zip",
+  "downloadUrl": "https://github.com/tuannguyentnn/Omnisave/archive/refs/heads/main.zip",
   "changelog": [
-    "🔄 Đồng Bộ Chéo Đa Nền Tảng (Cross-Cloud Resync): Hỗ trợ đồng bộ bản sao lưu trực tiếp giữa Google Drive và OneDrive khi máy tính không còn giữ file cục bộ; tự động tải đệm vào thư mục tạm và tự dọn dẹp giải phóng đĩa.",
-    "💻 Khôi Phục Snapshot Về Ổ Đĩa Máy Tính (Cloud to Local): Bổ sung tính năng cho phép tải và tái tạo file backup từ Cloud về đúng thư mục lưu trữ máy tính cục bộ nếu file snapshot bị thất lạc hoặc vô tình bị xóa.",
-    "🎨 Tái Cấu Trúc Giao Diện Modal Đồng Bộ Nằm Ngang: Thiết kế lại toàn diện SyncCloudSelectModal sang bố cục 3 Card nằm ngang (Bộ Nhớ Máy Tính, Google Drive, Microsoft OneDrive) với badge nhận diện và nút bấm ngữ cảnh thông minh.",
-    "⚡ Nâng Cấp Modal Chọn Nguồn Khôi Phục Nằm Ngang: Chuyển đổi RestoreSourceModal từ dạng dọc sang lưới 3 cột ngang hiện đại, phân tách rõ ràng nguồn Ổ cứng cục bộ (tốc độ tức thì) và các nguồn đám mây.",
-    "🛡️ Mở Rộng Bộ Kiểm Thử Tự Động (Integration Tests): Bổ sung kịch bản kiểm thử 15.2c (Cross-Cloud Resync) và 15.2d (Cloud-to-Local Restore), nâng tổng số bài test tích hợp lên 43/43 PASSED 100%."
+    "🌐 Chuyển Đổi Nguồn Phiên Bản & Repository (Official GitHub Migration): Cập nhật đường dẫn kho lưu trữ chính thức và nguồn kiểm tra phiên bản mới sang https://github.com/tuannguyentnn/Omnisave/.",
+    "🔄 Khắc Phục & Đồng Bộ Tự Động Cập Nhật (Auto-Update Manifest URL): Điều chỉnh DefaultManifestUrl trong UpdateService và version.json trỏ trực tiếp về repository mới, đảm bảo tính năng kiểm tra bản mới và tự động tải gói cập nhật diễn ra liền mạch.",
+    "🔗 Cập Nhật Toàn Bộ Đường Dẫn Hệ Thống: Đồng bộ hóa toàn bộ liên kết Báo lỗi (Issues), Bản phát hành (Releases), Hướng dẫn sử dụng (Guide) và thông tin tác giả trong cấu hình ứng dụng, AppBuildInfo và tài liệu hướng dẫn."
   ]
 }

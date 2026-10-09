@@ -21,7 +21,7 @@
 Omnisave được đóng gói ở định dạng **Portable Self-Contained**, bạn **không cần cài đặt**, không cần cài thêm .NET Runtime hay phần mềm phụ trợ.
 
 1. **Tải về**:
-   - Tải file nén mới nhất tại mục [Releases](https://github.com/tuannguyen01101995/Omnisave-Publish/releases) hoặc bấm nút xanh **Code > Download ZIP**.
+   - Tải file nén mới nhất tại mục [Releases](https://github.com/tuannguyentnn/Omnisave/releases) hoặc bấm nút xanh **Code > Download ZIP**.
 2. **Giải nén**:
    - Giải nén file `.zip` vào thư mục bất kỳ trên máy tính của bạn (Khuyên dùng: `D:\Omnisave` hoặc `C:\Omnisave`).
    - *Lưu ý: Tránh đặt trong thư mục `C:\Program Files` để ứng dụng có toàn quyền ghi file dữ liệu cấu hình portable mượt mà nhất.*
@@ -121,7 +121,7 @@ Lưu trữ save game trên đám mây giúp bạn yên tâm tuyệt đối khi c
 
 ## 💬 Hỗ Trợ & Đóng Góp Ý Kiến
 
-- Nếu bạn gặp lỗi hoặc muốn đề xuất tựa game mới, vui lòng tạo [GitHub Issue](https://github.com/tuannguyen01101995/Omnisave-Publish/issues).
+- Nếu bạn gặp lỗi hoặc muốn đề xuất tựa game mới, vui lòng tạo [GitHub Issue](https://github.com/tuannguyentnn/Omnisave/issues).
 - Xem nhật ký các bản cập nhật tại [CHANGELOG.md](file:///c:/Users/TuanNguyen/Desktop/New%20folder%20%289%29/Omnisave/CHANGELOG.md).
 
 <div align="center">

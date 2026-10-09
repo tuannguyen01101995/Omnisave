@@ -1,5 +1,14 @@
 ﻿[
     {
+        "version":  "1.5.1",
+        "releaseDate":  "2026-10-09",
+        "changelog":  [
+                          "🌐 Chuyển Đổi Nguồn Phiên Bản \u0026 Repository (Official GitHub Migration): Cập nhật đường dẫn kho lưu trữ chính thức và nguồn kiểm tra phiên bản mới sang https://github.com/tuannguyentnn/Omnisave/.",
+                          "🔄 Khắc Phục \u0026 Đồng Bộ Tự Động Cập Nhật (Auto-Update Manifest URL): Điều chỉnh DefaultManifestUrl trong UpdateService và version.json trỏ trực tiếp về repository mới, đảm bảo tính năng kiểm tra bản mới và tự động tải gói cập nhật diễn ra liền mạch.",
+                          "🔗 Cập Nhật Toàn Bộ Đường Dẫn Hệ Thống: Đồng bộ hóa toàn bộ liên kết Báo lỗi (Issues), Bản phát hành (Releases), Hướng dẫn sử dụng (Guide) và thông tin tác giả trong cấu hình ứng dụng, AppBuildInfo và tài liệu hướng dẫn."
+                      ]
+    },
+    {
         "version":  "1.5.0",
         "releaseDate":  "2026-10-07",
         "changelog":  [

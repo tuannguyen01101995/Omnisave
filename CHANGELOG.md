@@ -2,6 +2,11 @@
 
 Tat ca cac thay doi va ban cap nhat dang chu y cua du an **Omnisave** duoc ghi lai tai tai lieu nay.
 
+## [v1.5.1] - 2026-10-09
+- 🌐 Chuyển Đổi Nguồn Phiên Bản & Repository (Official GitHub Migration): Cập nhật đường dẫn kho lưu trữ chính thức và nguồn kiểm tra phiên bản mới sang https://github.com/tuannguyentnn/Omnisave/.
+- 🔄 Khắc Phục & Đồng Bộ Tự Động Cập Nhật (Auto-Update Manifest URL): Điều chỉnh DefaultManifestUrl trong UpdateService và version.json trỏ trực tiếp về repository mới, đảm bảo tính năng kiểm tra bản mới và tự động tải gói cập nhật diễn ra liền mạch.
+- 🔗 Cập Nhật Toàn Bộ Đường Dẫn Hệ Thống: Đồng bộ hóa toàn bộ liên kết Báo lỗi (Issues), Bản phát hành (Releases), Hướng dẫn sử dụng (Guide) và thông tin tác giả trong cấu hình ứng dụng, AppBuildInfo và tài liệu hướng dẫn.
+
 ## [v1.5.0] - 2026-10-07
 - 🔄 Đồng Bộ Chéo Đa Nền Tảng (Cross-Cloud Resync): Hỗ trợ đồng bộ bản sao lưu trực tiếp giữa Google Drive và OneDrive khi máy tính không còn giữ file cục bộ; tự động tải đệm vào thư mục tạm và tự dọn dẹp giải phóng đĩa.
 - 💻 Khôi Phục Snapshot Về Ổ Đĩa Máy Tính (Cloud to Local): Bổ sung tính năng cho phép tải và tái tạo file backup từ Cloud về đúng thư mục lưu trữ máy tính cục bộ nếu file snapshot bị thất lạc hoặc vô tình bị xóa.
